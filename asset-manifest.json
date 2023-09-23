@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.999603c8.css",
+    "main.js": "/portfolio-react/static/js/main.5e7a5966.js",
+    "static/media/QuotGenerator.png": "/portfolio-react/static/media/QuotGenerator.238bbef4d63ed82c55ee.png",
+    "static/media/resilience.png": "/portfolio-react/static/media/resilience.a26be80ffa85be6486b4.png",
+    "static/media/goodmoral.jpg": "/portfolio-react/static/media/goodmoral.11597f59e446910e2996.jpg",
+    "static/media/prob.png": "/portfolio-react/static/media/prob.d26ab9c0f5ce09e4c0fc.png",
+    "static/media/Time-Management.jpg": "/portfolio-react/static/media/Time-Management.739b681878dd31daa3fe.jpg",
+    "static/media/OJT.jpg": "/portfolio-react/static/media/OJT.6828ada90a38ce706f0d.jpg",
+    "static/media/Contac1.png": "/portfolio-react/static/media/Contac1.3175cd707747f318b8d8.png",
+    "static/media/reliability.jpg": "/portfolio-react/static/media/reliability.68a521e9f246066faabf.jpg",
+    "static/media/FleurDeLis.png": "/portfolio-react/static/media/FleurDeLis.f1c2de7bdefac8fe8856.png",
+    "static/media/critical.jpg": "/portfolio-react/static/media/critical.a5c10381481b9ddc4fe8.jpg",
+    "static/media/Front-End.png": "/portfolio-react/static/media/Front-End.884f49587ce8ff462cb2.png",
+    "static/media/JS.png": "/portfolio-react/static/media/JS.687babe070df1da04578.png",
+    "static/media/Responsive.png": "/portfolio-react/static/media/Responsive.00f23b13bdd3ca94f479.png",
+    "static/media/profile1.png": "/portfolio-react/static/media/profile1.d546a4a390a01c2063bc.png",
+    "static/media/communication.jpg": "/portfolio-react/static/media/communication.4a90609734ff910b2263.jpg",
+    "static/media/Leadership.jpg": "/portfolio-react/static/media/Leadership.a4b751b56d7e8e300680.jpg",
+    "static/media/creativity.jpg": "/portfolio-react/static/media/creativity.f15dbcc4fc224f252aa9.jpg",
+    "static/media/collab.jpg": "/portfolio-react/static/media/collab.fe7ecc12008164911be4.jpg",
+    "static/media/adapt.jpg": "/portfolio-react/static/media/adapt.202185b8fda99dfc36ca.jpg",
+    "static/media/Calculator1.png": "/portfolio-react/static/media/Calculator1.2dd16485743b1d4cb3cf.png",
+    "static/media/shuriken-removebg-preview.png": "/portfolio-react/static/media/shuriken-removebg-preview.98a27593e9e6425c89ff.png",
+    "static/media/Sun.svg": "/portfolio-react/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/Moon.svg": "/portfolio-react/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "index.html": "/portfolio-react/index.html",
+    "main.999603c8.css.map": "/portfolio-react/static/css/main.999603c8.css.map",
+    "main.5e7a5966.js.map": "/portfolio-react/static/js/main.5e7a5966.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.999603c8.css",
+    "static/js/main.5e7a5966.js"
+  ]
+}
