@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.999603c8.css",
-    "main.js": "/portfolio-react/static/js/main.5e7a5966.js",
+    "main.css": "/portfolio-react/static/css/main.93b6d185.css",
+    "main.js": "/portfolio-react/static/js/main.ddccba3f.js",
     "static/media/QuotGenerator.png": "/portfolio-react/static/media/QuotGenerator.238bbef4d63ed82c55ee.png",
     "static/media/resilience.png": "/portfolio-react/static/media/resilience.a26be80ffa85be6486b4.png",
     "static/media/goodmoral.jpg": "/portfolio-react/static/media/goodmoral.11597f59e446910e2996.jpg",
@@ -26,11 +26,11 @@
     "static/media/Sun.svg": "/portfolio-react/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
     "static/media/Moon.svg": "/portfolio-react/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
     "index.html": "/portfolio-react/index.html",
-    "main.999603c8.css.map": "/portfolio-react/static/css/main.999603c8.css.map",
-    "main.5e7a5966.js.map": "/portfolio-react/static/js/main.5e7a5966.js.map"
+    "main.93b6d185.css.map": "/portfolio-react/static/css/main.93b6d185.css.map",
+    "main.ddccba3f.js.map": "/portfolio-react/static/js/main.ddccba3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.999603c8.css",
-    "static/js/main.5e7a5966.js"
+    "static/css/main.93b6d185.css",
+    "static/js/main.ddccba3f.js"
   ]
 }
