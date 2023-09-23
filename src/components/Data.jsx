@@ -1,13 +1,13 @@
 
 export const skills = [{
     name: 'Leadership',
-    description: 'Gaining the trust and developing relationships with my fellow employees is important to me as a leader.  A leader establishes the mindset and direction of an organization by their actions.  Leaders inspire associate to follow their example and work together to accomplish a shared goal by setting an example and making sensible choices.',
+    description: 'As a leader gaining the trust and developing relationships with my fellow employees is important.  A leader must establish the mindset and direction of an organization by their actions.  Leaders inspire associate to follow their example and work together to accomplish a shared goal by setting an example and making sensible choices.',
     src: require('../assets/Skills/Leadership.jpg'), 
     alt: ''
   },
   {
     name: 'Adaptability',
-    description: "I am adaptable, it indicates that I am adaptable to changing approaches, and I adapt in unpredictable circumstances. I have no problem stepping outside of my comfort zone to grab new opportunities. It's about being able to pick yourself up back from setbacks and keep your cool under pressure. I usually observe, learn amd form connections with my coworkers to adapt in the environment much easier.,   ",
+    description: "I am adaptable changing approaches, I have no problem stepping outside of my comfort zone to grab new opportunities. It's about being able to pick yourself up back from setbacks and keep your cool under pressure. I usually observe, learn amd form connections with my coworkers to adapt in the environment much easier.,   ",
     src: require('../assets/Skills/adapt.jpg'), 
     alt: ''
   }, 
@@ -56,7 +56,7 @@ export const skills = [{
   }, {
     name: 'Resilience',
  
-    description: "The ability to push through limitations and move forward despite obstacles like work related or life challenges is what I consider to be my most important skill. No matter what the issue is, I never give up and won't accept failure. True failure, in my opinion, is giving up before even trying.",
+    description: "My ability to push through limitations and move forward despite obstacles like work related or life challenges is what I consider to be my most important skill. No matter what the issue is, I never give up and won't accept failure. 'Never back down never what never give up!!!' ",
     src: require('../assets/Skills/resilience.png'), 
     alt: ''
   }];
