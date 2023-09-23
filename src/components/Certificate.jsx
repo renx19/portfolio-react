@@ -46,7 +46,7 @@ export default function Credential() {
       <span class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white"> {showMore ? 'Hide' : 'Show'} details</span>
       </a>
       </button>
-      {showMore && <p className="mb-4 mx-80">{credentials.description}</p>}
+      {showMore && <p className="mb-4">{credentials.description}</p>}
       <div className="flex justify-center">
         <img
           src={credentials.src}
