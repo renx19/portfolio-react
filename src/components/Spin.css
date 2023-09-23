@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Spin animation 1 */
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Spin animation 2 */
+@keyframes spin-medium {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Spin animation 3 */
+@keyframes spin-fast {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animation classes */
+.animate-spin-slow {
+  animation: spin-slow 4s linear infinite;
+}
+
+.animate-spin-medium {
+  animation: spin-medium 2s linear infinite;
+}
+
+.animate-spin-fast {
+  animation: spin-fast 1s linear infinite;
+}
+
+/* Spin animations (same as your existing code) */
+
+/* Animation classes (same as your existing code) */
+
+/* Media query for screen width below 768px */
+@media (max-width: 820px) {
+  /* CSS rules to adjust image position and size */
+  .your-image-class {
+  margin-left: 100px;
+   
+  }
+}
+
+/* Media query for screen width below 500px */
+@media (max-width: 499px) {
+
+  .your-image-class {
+    margin-left: -12px;
+    width: 120px;
+    height: 120px;
+     
+    }
+ 
+}
+     
+    
+ 
+

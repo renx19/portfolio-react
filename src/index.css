@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root , 
+
+
+:root {
+  --body_background-light: white; /* Default background color for light theme */
+  --body_background-dark: #282c34; /* Background color for dark theme */
+  --body_color: white; /* Common text color */
+  --link_color: navy; /* Common link color */
+}
+
+[data-theme="dark"] {
+  --body_background: var(--body_background-dark);
+  --body_color: cyan;
+
+}
+
+/* Styles for light mode */
+[data-theme='light'] {
+  --body_background: var(--body_background-light);
+  --body_color: cyan; /* You can specify the text color for the light theme here */
+}
+

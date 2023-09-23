@@ -1,0 +1,6 @@
+#tsparticles {
+  height: 100vh;
+  width: 100%;
+  z-index: -1; /* Set to -1 to place particles behind other content */
+  position: absolute;
+}
