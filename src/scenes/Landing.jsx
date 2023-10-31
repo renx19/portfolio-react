@@ -23,14 +23,15 @@ const Landing = ({ setSelectedPage }) => {
 
   return (
     <div style={{ minHeight: "100vh" }}> 
-       <Particle    />
+       
     <section
-    
+   
       id="home"
       className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10 "
-    >
+     >
       {/* IMAGE SECTION */}
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
+        <Particle    />
         {isAboveLarge ? (
           <div
             className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
@@ -57,6 +58,7 @@ const Landing = ({ setSelectedPage }) => {
 
       {/* MAIN TEXT */}
       <div className="z-30 basis-2/5 mt-12 md:mt-32">
+    
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
@@ -136,12 +138,24 @@ const Landing = ({ setSelectedPage }) => {
         >
           <SocialMediaIcons />
         </motion.div>
-        <div className="relative mt-5 md:mt-8 flex flex-row space-x-3">
-  <img
+
+
+        <motion.div
+          className="flex mt-5 justify-center md:justify-start"
+          initial="hidden"  
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, x: -50 },
+            visible: { opacity: 1, x: 0 },
+          }}
+        >
+ <div className="relative mt-5 md:mt-8 flex flex-row space-x-3 align-middle justify-center">
+   <img
     src={require('../assets/shuriken-removebg-preview.png')}
     alt="Spinning Image"
     className={`your-image-class ${isSpinning ? "animate-spin-slow" : ""}`}
-  
   />
 
   <img
@@ -150,13 +164,13 @@ const Landing = ({ setSelectedPage }) => {
     className={`your-image-class ${isSpinning ? "animate-spin-medium" : ""}`}
   />
 
-  <img
-    src={require('../assets/shuriken-removebg-preview.png')}
-    alt="Spinning Image"
-    className={`your-image-class ${isSpinning ? "animate-spin-fast" : ""}`} 
-  />
-</div>
-
+   <img
+     src={require('../assets/shuriken-removebg-preview.png')}
+     alt="Spinning Image"
+      className={`your-image-class ${isSpinning ? "animate-spin-fast" : ""}`} 
+     />
+    </div>
+    </motion.div>
 
       </div>
     </section>

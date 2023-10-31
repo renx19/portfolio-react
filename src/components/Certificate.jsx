@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { CertificateData } from '../components/DataCertificate';
 import useMediaQuery from "../hooks/useMediaQuery";
+import { motion } from "framer-motion";
 
 export default function Credential() {
   const [index, setIndex] = useState(0);
@@ -34,6 +35,18 @@ export default function Credential() {
       <span class="relative transition-colors duration-300 delay-200 group-hover:text-white ease">Next</span>
     </a>
   </button>
+
+  <motion.div
+    initial="hidden"
+    whileInView="visible"
+    viewport={{ once: true, amount: 0.5 }}
+    transition={{ duration: 0.5 }}
+    variants={{
+      hidden: { opacity: 0, x: 50 },
+      visible: { opacity: 1, x: 0 },
+    }}
+      >
+
       <h2 className="mb-2 text-2xl">
         <i>{credentials.name} </i>
       </h2>
@@ -46,7 +59,11 @@ export default function Credential() {
       <span class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white"> {showMore ? 'Hide' : 'Show'} details</span>
       </a>
       </button>
-      {showMore && <p className="mb-4">{credentials.description}</p>}
+
+     
+
+      {showMore && <p className="mb-4 text-justify text-lg md:text-xl lg:text-2xl mb-6">{credentials.description}</p>}
+     
       <div className="flex justify-center">
         <img
           src={credentials.src}
@@ -59,6 +76,8 @@ export default function Credential() {
           }}
         />
       </div>
+  
+      </motion.div>
     </div>
   );
 }

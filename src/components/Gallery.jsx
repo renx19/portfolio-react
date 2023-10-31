@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { skills } from '../components/Data';
 import useMediaQuery from "../hooks/useMediaQuery";
+import { motion } from "framer-motion";
 
 export default function Gallery() {
   const [index, setIndex] = useState(0);
@@ -23,6 +24,8 @@ export default function Gallery() {
 
   let softskills = skills[index];
   return (
+
+   
     <div className="text-center">
       <button onClick={handleNextClick} className="mb-4">
     <a href="#_" class="relative px-10 py-3 overflow-hidden font-medium text-gray-600 bg-gray-100 border border-black rounded-lg shadow-inner group  ">
@@ -34,6 +37,17 @@ export default function Gallery() {
       <span class="relative transition-colors duration-300 delay-200 group-hover:text-white ease">Next</span>
     </a>
   </button>
+  
+  <motion.div
+    initial="hidden"
+    whileInView="visible"
+    viewport={{ once: true, amount: 0.5 }}
+    transition={{ duration: 0.5 }}
+    variants={{
+      hidden: { opacity: 0, x: 50 },
+      visible: { opacity: 1, x: 0 },
+    }}
+      >
       <h2 className="mb-2 text-2xl">
         <i>{softskills.name} </i>
       </h2>
@@ -46,7 +60,7 @@ export default function Gallery() {
       <span class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white"> {showMore ? 'Hide' : 'Show'} details</span>
       </a>
       </button>
-      {showMore && <p className="mb-4">{softskills.description}</p>}
+      {showMore && <p className="mb-4 text-justify text-lg md:text-xl lg:text-2xl mb-6">{softskills.description}</p>}
       <div className="flex justify-center">
         <img
           src={softskills.src}
@@ -58,7 +72,10 @@ export default function Gallery() {
             display: 'block', // To remove extra space below inline images
           }}
         />
+      
       </div>
+      </motion.div>
     </div>
+     
   );
 }

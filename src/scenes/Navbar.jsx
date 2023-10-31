@@ -30,7 +30,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
       // Calculate the scroll position and section offsets here
       // Replace these with your actual section IDs
       const homeOffset = 0;
-      const skillsOffset = document.getElementById("skills")?.offsetTop || 0;
+      const skillsOffset = document.getElementById("about")?.offsetTop || 0;
       const projectsOffset = document.getElementById("projects")?.offsetTop || 0;
       const contactOffset = document.getElementById("contact")?.offsetTop || 0;
 
@@ -39,7 +39,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
       if (scrollPosition < skillsOffset) {
         setSelectedPage("home");
       } else if (scrollPosition < projectsOffset) {
-        setSelectedPage("skills");
+        setSelectedPage("about");
       } else if (scrollPosition < contactOffset) {
         setSelectedPage("projects");
       } else {
@@ -64,7 +64,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
         {isDesktop ? (
           <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
             <Link page="Home" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
-            <Link page="Skills" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
+            <Link page="About" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
             <Link page="Projects" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
             <Link page="Contact" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
           </div>

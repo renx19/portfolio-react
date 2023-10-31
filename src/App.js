@@ -79,7 +79,7 @@ function App() {
           <motion.div
             margin="0 0 -200px 0"
             amount="all"
-            onViewportEnter={() => setSelectedPage("skills")}
+            onViewportEnter={() => setSelectedPage("about")}
           >
             <MySkills />
           </motion.div>
