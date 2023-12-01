@@ -15,13 +15,13 @@ const DotGroup = ({ selectedPage, setSelectedPage }) => {
       </AnchorLink>
 
       <AnchorLink
-        href="#skills"
-        className={`custom-link ${selectedPage === "skills" ? "" : ""} w-5 h-5 transition-transform transform hover:scale-110 hover:bg-yellow hover:rounded-full`}
-        onClick={() => setSelectedPage("skills")}
+        href="#about"
+        className={`custom-link ${selectedPage === "about" ? "" : ""} w-5 h-5 transition-transform transform hover:scale-110 hover:bg-yellow hover:rounded-full`}
+        onClick={() => setSelectedPage("about")}
       >
         <img
           src={require('../assets/layers.png')}
-          alt="Skills"
+          alt="about"
           className={`w-5 h-5`}
         />
       </AnchorLink>
