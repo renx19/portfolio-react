@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.93b6d185.css",
-    "main.js": "/portfolio-react/static/js/main.ecc634b6.js",
+    "main.css": "/portfolio-react/static/css/main.4d4dba69.css",
+    "main.js": "/portfolio-react/static/js/main.f3f2c6c0.js",
     "static/media/QuotGenerator.png": "/portfolio-react/static/media/QuotGenerator.238bbef4d63ed82c55ee.png",
     "static/media/resilience.png": "/portfolio-react/static/media/resilience.a26be80ffa85be6486b4.png",
+    "static/media/gallery.png": "/portfolio-react/static/media/gallery.4c2e098a1e84cafc82eb.png",
     "static/media/goodmoral.jpg": "/portfolio-react/static/media/goodmoral.11597f59e446910e2996.jpg",
     "static/media/prob.png": "/portfolio-react/static/media/prob.d26ab9c0f5ce09e4c0fc.png",
     "static/media/Time-Management.jpg": "/portfolio-react/static/media/Time-Management.739b681878dd31daa3fe.jpg",
     "static/media/thorhammer.png": "/portfolio-react/static/media/thorhammer.facbe3cc43ec17631a0d.png",
     "static/media/OJT.jpg": "/portfolio-react/static/media/OJT.6828ada90a38ce706f0d.jpg",
-    "static/media/Contac1.png": "/portfolio-react/static/media/Contac1.3175cd707747f318b8d8.png",
+    "static/media/cont.png": "/portfolio-react/static/media/cont.dcba82dc6a9ea717a938.png",
     "static/media/reliability.jpg": "/portfolio-react/static/media/reliability.68a521e9f246066faabf.jpg",
     "static/media/FleurDeLis.png": "/portfolio-react/static/media/FleurDeLis.f1c2de7bdefac8fe8856.png",
     "static/media/critical.jpg": "/portfolio-react/static/media/critical.a5c10381481b9ddc4fe8.jpg",
@@ -18,6 +19,8 @@
     "static/media/Responsive.png": "/portfolio-react/static/media/Responsive.00f23b13bdd3ca94f479.png",
     "static/media/profile1.png": "/portfolio-react/static/media/profile1.d546a4a390a01c2063bc.png",
     "static/media/rock-paper-scissors.png": "/portfolio-react/static/media/rock-paper-scissors.4dea3324972ae3a3cbf5.png",
+    "static/media/reviewer.png": "/portfolio-react/static/media/reviewer.2a2fcfbe76f0ff7c1b9b.png",
+    "static/media/about.jpg": "/portfolio-react/static/media/about.eb702c0e1e7f9a4b0ffb.jpg",
     "static/media/communication.jpg": "/portfolio-react/static/media/communication.4a90609734ff910b2263.jpg",
     "static/media/tic-tac.png": "/portfolio-react/static/media/tic-tac.37f11d0929b1a76fe204.png",
     "static/media/Leadership.jpg": "/portfolio-react/static/media/Leadership.a4b751b56d7e8e300680.jpg",
@@ -29,11 +32,11 @@
     "static/media/Sun.svg": "/portfolio-react/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
     "static/media/Moon.svg": "/portfolio-react/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
     "index.html": "/portfolio-react/index.html",
-    "main.93b6d185.css.map": "/portfolio-react/static/css/main.93b6d185.css.map",
-    "main.ecc634b6.js.map": "/portfolio-react/static/js/main.ecc634b6.js.map"
+    "main.4d4dba69.css.map": "/portfolio-react/static/css/main.4d4dba69.css.map",
+    "main.f3f2c6c0.js.map": "/portfolio-react/static/js/main.f3f2c6c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.93b6d185.css",
-    "static/js/main.ecc634b6.js"
+    "static/css/main.4d4dba69.css",
+    "static/js/main.f3f2c6c0.js"
   ]
 }
