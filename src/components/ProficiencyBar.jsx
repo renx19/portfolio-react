@@ -6,7 +6,6 @@ import ReactImage from '../assets/dev/react.png';
 import NextJSImg from '../assets/dev/nextjs.png';
 import NodeJSImg from '../assets/dev/icons8-node-js-64.png';
 import SQL from '../assets/dev/icons8-sql-64.png';
-import PHPImg from '../assets/dev/icons8-php-64.png';
 import MONGODB from '../assets/dev/icons8-mongodb-a-cross-platform-document-oriented-database-program-64.png';
 // Import images for other skills here
 
@@ -32,7 +31,6 @@ const ProficiencyBar = ({ skillName, proficiencyLevel, skillText }) => {
     nextjs: NextJSImg,
     'icons8-node-js-64': NodeJSImg,
     'icons8-sql-64': SQL,
-    'icons8-php-64': PHPImg,
     'icons8-mongodb-a-cross-platform-document-oriented-database-program-64': MONGODB,
   };
 

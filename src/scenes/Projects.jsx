@@ -28,14 +28,14 @@ const openProjectUrl = (url) => {
 };
 
 const projectsData = [
-  { title: "Project 1", imageUrl: ProjectImage1, url: "  https://renx19.github.io/Image-Gallery/" },
-  { title: "Project 2", imageUrl: ProjectImage2, url: "https://renx19.github.io/xReviewer/" },
-  { title: "Project 3", imageUrl: ProjectImage3, url: "https://renx19.github.io/fleurdelisx.github.io/" },
-  { title: "Project 4", imageUrl: ProjectImage4, url: "https://renx19.github.io/quote-generator/" },
-  { title: "Project 5", imageUrl: ProjectImage5, url: "https://renx19.github.io/calculator-js/" },
-  { title: "Project 6", imageUrl: ProjectImage6, url: "https://renx19.github.io/tick-tac-toe/" },
-  { title: "Project 7", imageUrl: ProjectImage7, url: "https://renx19.github.io/rock-paper-scissors/" },
-  { title: "Project 8", imageUrl: ProjectImage8, url: "https://renx19.github.io/thor-hammer/" },
+  { title: "Reviewer", imageUrl: ProjectImage1, url: "https://renx19.github.io/xReviewer/" },
+  { title: "Image Gallery", imageUrl: ProjectImage2, url: "https://renx19.github.io/Image-Gallery/" },
+  { title: "Simple Ecommerce", imageUrl: ProjectImage3, url: "https://renx19.github.io/fleurdelisx.github.io/" },
+  { title: "Quote Generator", imageUrl: ProjectImage4, url: "https://renx19.github.io/quote-generator/" },
+  { title: "Calculator", imageUrl: ProjectImage5, url: "https://renx19.github.io/calculator-js/" },
+  { title: "Tic-Tac-Toe", imageUrl: ProjectImage6, url: "https://renx19.github.io/tick-tac-toe/" },
+  { title: "Rock-Paper-Scissors", imageUrl: ProjectImage7, url: "https://renx19.github.io/rock-paper-scissors/" },
+  { title: "Whack-A-Mole", imageUrl: ProjectImage8, url: "https://renx19.github.io/thor-hammer/" },
   
 
 
@@ -69,7 +69,7 @@ const Projects = () => {
       {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
-          className="sm:grid sm:grid-cols-3"
+          className="sm:grid sm:grid-cols-3 gap-4"
           variants={container}
           initial="hidden"
           whileInView="visible"
@@ -88,7 +88,7 @@ const Projects = () => {
                 </div>
                 {/* Use the anchor element for clickable images */}
                 <a href={project.url} target="_blank" rel="noopener noreferrer">
-                  <img src={project.imageUrl} alt={project.title} />
+                  <img className="my-5" src={project.imageUrl} alt={project.title} />
                 </a>
               </motion.div>
             </div>

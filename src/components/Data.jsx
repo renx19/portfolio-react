@@ -7,7 +7,7 @@ export const skills = [{
   },
   {
     name: 'Adaptability',
-    description: "I am adaptable changing approaches, I have no problem stepping outside of my comfort zone to grab new opportunities. It's about being able to pick yourself up back from setbacks and keep your cool under pressure. I usually observe, learn amd form connections with my coworkers to adapt in the environment much easier.,   ",
+    description: "I am adaptable to changing innovation and trends, I have no problem stepping outside of my comfort zone to grab new opportunities. It's about being able to pick yourself up back from setbacks and keep your cool under pressure. I usually observe, learn and form connections with my fellow coworkers in order to work effectively and efficient.  ",
     src: require('../assets/Skills/adapt.jpg'), 
     alt: ''
   }, 

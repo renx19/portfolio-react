@@ -69,8 +69,6 @@ const MySkills = () => {
     {/* Node.js */}
     <ProficiencyBar skillName="icons8-node-js-64" proficiencyLevel="Novice" skillText="Node.js" />
 
-    {/* PHP */}
-    <ProficiencyBar skillName="icons8-php-64" proficiencyLevel="Novice" skillText="PHP" />
 
     {/* MongoDB */}
     <ProficiencyBar skillName="icons8-mongodb-a-cross-platform-document-oriented-database-program-64" proficiencyLevel="Novice" skillText="MongoDB" />
