@@ -1,7 +1,7 @@
 
 export const skills = [{
     name: 'Leadership',
-    description: 'As a leader gaining the trust and developing relationships with my fellow employees is important.  A leader must establish the mindset and direction of an organization by their actions.  Leaders inspire associate to follow their example and work together to accomplish a shared goal by setting an example and making sensible choices.',
+    description: 'As a leader myself gaining the trust and developing relationships with my fellow employees is important.  A leader must establish the mindset and direction of an organization by their actions.  Leaders inspire associate to follow their example and work together to accomplish a shared goal by setting an example and making sensible choices.',
     src: require('../assets/Skills/Leadership.jpg'), 
     alt: ''
   },
