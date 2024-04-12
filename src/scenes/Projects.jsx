@@ -8,6 +8,9 @@ import ProjectImage5 from "../assets/Project/Calculator1.png";
 import ProjectImage6 from "../assets/Project/tic-tac.png";
 import ProjectImage7 from "../assets/Project/rock-paper-scissors.png";
 import ProjectImage8 from "../assets/Project/thorhammer.png";
+import ProjectImage9 from "../assets/Project/EmployeeCrud.png";
+import ProjectImage10 from "../assets/Project/Todolist.png";
+
 
 const container = {
   hidden: {},
@@ -29,6 +32,8 @@ const openProjectUrl = (url) => {
 
 const projectsData = [
   { title: "Reviewer", imageUrl: ProjectImage1, url: "https://renx19.github.io/xReviewer/" },
+  { title: "Employee-CRUD with Auth", imageUrl: ProjectImage9, url: "https://employee-mern-crud.netlify.app/" },
+  { title: "Mern TODO-CRUD", imageUrl: ProjectImage10, url: "https://todoapp-fe.netlify.app/" },
   { title: "Image Gallery", imageUrl: ProjectImage2, url: "https://renx19.github.io/Image-Gallery/" },
   { title: "Simple Ecommerce", imageUrl: ProjectImage3, url: "https://renx19.github.io/fleurdelisx.github.io/" },
   { title: "Quote Generator", imageUrl: ProjectImage4, url: "https://renx19.github.io/quote-generator/" },
@@ -36,6 +41,7 @@ const projectsData = [
   { title: "Tic-Tac-Toe", imageUrl: ProjectImage6, url: "https://renx19.github.io/tick-tac-toe/" },
   { title: "Rock-Paper-Scissors", imageUrl: ProjectImage7, url: "https://renx19.github.io/rock-paper-scissors/" },
   { title: "Whack-A-Mole", imageUrl: ProjectImage8, url: "https://renx19.github.io/thor-hammer/" },
+
   
 
 
